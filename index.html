@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/estilosnavbar.css">
-    <title>Sticky</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <script defer src="js/menu.js"></script>
+    <title>SIAUTOMOTRIZ</title>
 </head>
 <body>
     <header class="header">
-        <div class="contenedor_nav">
-            <div class="navbar">
-                <div class="logo">
-                    SIAUTOMOTRIZ MR
+        
+            <nav class="nav">
+                <div class="nav__logo">
+                    <p>SIAUTOMOTRIZ MR</p>
                 </div>
-                <ul class="menu">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Precios</a></li>
+                <button class="nav__btn-menu" id="btnMenu">
+                    <i class="fas fa-bars"></i></a>
+                </button>
+                <ul class="nav__menu" id="menu">
+                    <li class="menu__items"><a href="#" class="menu__link"><i class="fas fa-home"></i>Inicio</a></li>
+                    <li class="menu__items"><a href="#" class="menu__link"><i class="fas fa-address-card"></i> Nosotros</a></li>
+                    <li class="menu__items"><a href="#" class="menu__link"><i class="fas fa-tools"></i> Servicios</a></li>
+                    <li class="menu__items"><a href="#" class="menu__link"><i class="fas fa-map-marker-alt"></i>Ubicanos</a></li>
                 </ul>
-            </div>
-        </div>
+            </nav>
+   
         <div class="contenedor__img">
             <img src="img/bannerTaller.jpg" alt="" class="banner">
         </div>
@@ -44,22 +49,30 @@
                     <h1 class="contenido-titulo">
                         articulo 1
                     </h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus labore eum assumenda facilis soluta aut?</p>
-                </div>
-                <div class="contenido-texto">
-                    <h1 class="contenido-titulo">
-                        articulo 2
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui numquam, alias unde magnam praesentium quasi quidem est repudiandae ratione possimus esse ullam id maiores perspiciatis reprehenderit, beatae repellendus. Id vero nam non omnis accusamus in sed, earum, eligendi, odio doloribus reprehenderit deleniti aliquid aspernatur tempore saepe? Sunt quibusdam maiores harum sed asperiores incidunt, similique eveniet at, aperiam commodi necessitatibus culpa quaerat ut! Nemo accusantium nihil in veniam omnis doloribus sit incidunt placeat inventore minus culpa, voluptas facilis autem, doloremque cupiditate esse exercitationem animi ad nesciunt quos. Quae consectetur quisquam quas. Itaque ducimus consectetur atque autem voluptatibus nobis assumenda suscipit placeat, obcaecati commodi, praesentium dignissimos adipisci nam natus modi impedit similique ad qui! Velit obcaecati iure officia non eius ex eos voluptatem, architecto temporibus optio corrupti facilis laborum maxime assumenda fugiat aliquid, dolor ullam itaque asperiores deserunt ipsa quas. Ullam voluptatem recusandae, quis ab officiis eum porro commodi provident non nulla est quos et a maxime voluptas dolor natus autem perferendis facilis illum quae! Dolorum ratione in alias perspiciatis, repudiandae eius illo omnis vitae commodi numquam cumque totam, eveniet, quis accusantium? Quasi optio molestias praesentium voluptate odit ab doloribus in, nemo, numquam quas deserunt expedita exercitationem eaque, nam enim commodi cumque.</p>
+                    </div>
+                    <div class="contenido-texto">
+                        <h1 class="contenido-titulo">
+                            articulo 2
                     </h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus labore eum assumenda facilis soluta aut?</p>
+                    </h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui numquam, alias unde magnam praesentium quasi quidem est repudiandae ratione possimus esse ullam id maiores perspiciatis reprehenderit, beatae repellendus. Id vero nam non omnis accusamus in sed, earum, eligendi, odio doloribus reprehenderit deleniti aliquid aspernatur tempore saepe? Sunt quibusdam maiores harum sed asperiores incidunt, similique eveniet at, aperiam commodi necessitatibus culpa quaerat ut! Nemo accusantium nihil in veniam omnis doloribus sit incidunt placeat inventore minus culpa, voluptas facilis autem, doloremque cupiditate esse exercitationem animi ad nesciunt quos. Quae consectetur quisquam quas. Itaque ducimus consectetur atque autem voluptatibus nobis assumenda suscipit placeat, obcaecati commodi, praesentium dignissimos adipisci nam natus modi impedit similique ad qui! Velit obcaecati iure officia non eius ex eos voluptatem, architecto temporibus optio corrupti facilis laborum maxime assumenda fugiat aliquid, dolor ullam itaque asperiores deserunt ipsa quas. Ullam voluptatem recusandae, quis ab officiis eum porro commodi provident non nulla est quos et a maxime voluptas dolor natus autem perferendis facilis illum quae! Dolorum ratione in alias perspiciatis, repudiandae eius illo omnis vitae commodi numquam cumque totam, eveniet, quis accusantium? Quasi optio molestias praesentium voluptate odit ab doloribus in, nemo, numquam quas deserunt expedita exercitationem eaque, nam enim commodi cumque.</p>
                 </div>
                 <div class="contenido-texto">
                     <h1 class="contenido-titulo">
                         articulo 3
                     </h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus labore eum assumenda facilis soluta aut?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui numquam, alias unde magnam praesentium quasi quidem est repudiandae ratione possimus esse ullam id maiores perspiciatis reprehenderit, beatae repellendus. Id vero nam non omnis accusamus in sed, earum, eligendi, odio doloribus reprehenderit deleniti aliquid aspernatur tempore saepe? Sunt quibusdam maiores harum sed asperiores incidunt, similique eveniet at, aperiam commodi necessitatibus culpa quaerat ut! Nemo accusantium nihil in veniam omnis doloribus sit incidunt placeat inventore minus culpa, voluptas facilis autem, doloremque cupiditate esse exercitationem animi ad nesciunt quos. Quae consectetur quisquam quas. Itaque ducimus consectetur atque autem voluptatibus nobis assumenda suscipit placeat, obcaecati commodi, praesentium dignissimos adipisci nam natus modi impedit similique ad qui! Velit obcaecati iure officia non eius ex eos voluptatem, architecto temporibus optio corrupti facilis laborum maxime assumenda fugiat aliquid, dolor ullam itaque asperiores deserunt ipsa quas. Ullam voluptatem recusandae, quis ab officiis eum porro commodi provident non nulla est quos et a maxime voluptas dolor natus autem perferendis facilis illum quae! Dolorum ratione in alias perspiciatis, repudiandae eius illo omnis vitae commodi numquam cumque totam, eveniet, quis accusantium? Quasi optio molestias praesentium voluptate odit ab doloribus in, nemo, numquam quas deserunt expedita exercitationem eaque, nam enim commodi cumque.</p>
+                </div>
+                <div class="contenido-texto">
+                    <h1 class="contenido-titulo">
+                        articulo 3
+                    </h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui numquam, alias unde magnam praesentium quasi quidem est repudiandae ratione possimus esse ullam id maiores perspiciatis reprehenderit, beatae repellendus. Id vero nam non omnis accusamus in sed, earum, eligendi, odio doloribus reprehenderit deleniti aliquid aspernatur tempore saepe? Sunt quibusdam maiores harum sed asperiores incidunt, similique eveniet at, aperiam commodi necessitatibus culpa quaerat ut! Nemo accusantium nihil in veniam omnis doloribus sit incidunt placeat inventore minus culpa, voluptas facilis autem, doloremque cupiditate esse exercitationem animi ad nesciunt quos. Quae consectetur quisquam quas. Itaque ducimus consectetur atque autem voluptatibus nobis assumenda suscipit placeat, obcaecati commodi, praesentium dignissimos adipisci nam natus modi impedit similique ad qui! Velit obcaecati iure officia non eius ex eos voluptatem, architecto temporibus optio corrupti facilis laborum maxime assumenda fugiat aliquid, dolor ullam itaque asperiores deserunt ipsa quas. Ullam voluptatem recusandae, quis ab officiis eum porro commodi provident non nulla est quos et a maxime voluptas dolor natus autem perferendis facilis illum quae! Dolorum ratione in alias perspiciatis, repudiandae eius illo omnis vitae commodi numquam cumque totam, eveniet, quis accusantium? Quasi optio molestias praesentium voluptate odit ab doloribus in, nemo, numquam quas deserunt expedita exercitationem eaque, nam enim commodi cumque.</p>
                 </div>
             </div>
         </div>
     </main>
+    
 </body>
 </html>
