@@ -1,78 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/estilosnavbar.css">
+    <link rel="stylesheet" href="css/contenido.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://file.myfontastic.com/avEiViZgyTsPbVfr2ozm59/icons.css" rel="stylesheet">
     <script defer src="js/menu.js"></script>
     <title>SIAUTOMOTRIZ</title>
 </head>
+
 <body>
     <header class="header">
-        
-            <nav class="nav">
-                <div class="nav__logo">
-                    <p>SIAUTOMOTRIZ MR</p>
-                </div>
-                <button class="nav__btn-menu" id="btnMenu">
-                    <i class="fas fa-bars"></i></a>
-                </button>
-                <ul class="nav__menu" id="menu">
-                    <li class="menu__items"><a href="#" class="menu__link"><i class="fas fa-home"></i>Inicio</a></li>
-                    <li class="menu__items"><a href="#" class="menu__link"><i class="fas fa-address-card"></i> Nosotros</a></li>
-                    <li class="menu__items"><a href="#" class="menu__link"><i class="fas fa-tools"></i> Servicios</a></li>
-                    <li class="menu__items"><a href="#" class="menu__link"><i class="fas fa-map-marker-alt"></i>Ubicanos</a></li>
-                </ul>
-            </nav>
-   
+        <nav class="nav">
+            <div class="nav__logo">
+                <p>SIAUTOMOTRIZ MR</p>
+            </div>
+            <button class="nav__btn-menu" id="btnMenu">
+                <i class="fas fa-bars"></i></a>
+            </button>
+            <ul class="nav__menu" id="menu">
+                <li class="menu__items"><a href="#" class="menu__link"><i class="fas fa-home"></i>Inicio</a></li>
+                <li class="menu__items"><a href="#nosotros" class="menu__link"><i class="fas fa-address-card"></i> Nosotros</a></li>
+                <li class="menu__items"><a href="#servicio" class="menu__link"><i class="fas fa-tools"></i> Servicios</a></li>
+                <li class="menu__items"><a href="#" class="menu__link"><i class="fas fa-map-marker-alt"></i>Ubicanos</a>
+                </li>
+            </ul>
+        </nav>
+
         <div class="contenedor__img">
             <img src="img/bannerTaller.jpg" alt="" class="banner">
         </div>
     </header>
-
+    
     <main class="main">
-        <div class="contenedor">
-            <aside class="barra__lateral">
-                <h3>Opciones</h3>
-                <div class="Indice">
-                    <ul>
-                        <a href="#"></a><li>Artuculo 1</li></a>
-                        <a href="#"></a><li>Artuculo 2</li></a>
-                        <a href="#"></a><li>Artuculo 3</li></a>
+        <div class="main__contenedor">
+            <aside class="aside__bar">
+                <h3>Temas</h3>
+                <div class="indice">
+                    <ul class="indice-nav">
+                        <a href="#articulo-1">
+                            <li>Artículo 1</li>
+                        </a>
+                        <a href="#articulo-2">
+                            <li>Artículo 2</li>
+                        </a>
+                        <a href="#articulo-3">
+                            <li>Artículo 3</li>
+                        </a>
+                        <a href="#articulo-4">
+                            <li>Artículo 4</li>
+                        </a>
                     </ul>
                 </div>
             </aside>
-            <div class="contenido">
-                <div class="contenido-texto">
-                    <h1 class="contenido-titulo">
-                        articulo 1
-                    </h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui numquam, alias unde magnam praesentium quasi quidem est repudiandae ratione possimus esse ullam id maiores perspiciatis reprehenderit, beatae repellendus. Id vero nam non omnis accusamus in sed, earum, eligendi, odio doloribus reprehenderit deleniti aliquid aspernatur tempore saepe? Sunt quibusdam maiores harum sed asperiores incidunt, similique eveniet at, aperiam commodi necessitatibus culpa quaerat ut! Nemo accusantium nihil in veniam omnis doloribus sit incidunt placeat inventore minus culpa, voluptas facilis autem, doloremque cupiditate esse exercitationem animi ad nesciunt quos. Quae consectetur quisquam quas. Itaque ducimus consectetur atque autem voluptatibus nobis assumenda suscipit placeat, obcaecati commodi, praesentium dignissimos adipisci nam natus modi impedit similique ad qui! Velit obcaecati iure officia non eius ex eos voluptatem, architecto temporibus optio corrupti facilis laborum maxime assumenda fugiat aliquid, dolor ullam itaque asperiores deserunt ipsa quas. Ullam voluptatem recusandae, quis ab officiis eum porro commodi provident non nulla est quos et a maxime voluptas dolor natus autem perferendis facilis illum quae! Dolorum ratione in alias perspiciatis, repudiandae eius illo omnis vitae commodi numquam cumque totam, eveniet, quis accusantium? Quasi optio molestias praesentium voluptate odit ab doloribus in, nemo, numquam quas deserunt expedita exercitationem eaque, nam enim commodi cumque.</p>
-                    </div>
-                    <div class="contenido-texto">
-                        <h1 class="contenido-titulo">
-                            articulo 2
-                    </h1>
-                    </h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui numquam, alias unde magnam praesentium quasi quidem est repudiandae ratione possimus esse ullam id maiores perspiciatis reprehenderit, beatae repellendus. Id vero nam non omnis accusamus in sed, earum, eligendi, odio doloribus reprehenderit deleniti aliquid aspernatur tempore saepe? Sunt quibusdam maiores harum sed asperiores incidunt, similique eveniet at, aperiam commodi necessitatibus culpa quaerat ut! Nemo accusantium nihil in veniam omnis doloribus sit incidunt placeat inventore minus culpa, voluptas facilis autem, doloremque cupiditate esse exercitationem animi ad nesciunt quos. Quae consectetur quisquam quas. Itaque ducimus consectetur atque autem voluptatibus nobis assumenda suscipit placeat, obcaecati commodi, praesentium dignissimos adipisci nam natus modi impedit similique ad qui! Velit obcaecati iure officia non eius ex eos voluptatem, architecto temporibus optio corrupti facilis laborum maxime assumenda fugiat aliquid, dolor ullam itaque asperiores deserunt ipsa quas. Ullam voluptatem recusandae, quis ab officiis eum porro commodi provident non nulla est quos et a maxime voluptas dolor natus autem perferendis facilis illum quae! Dolorum ratione in alias perspiciatis, repudiandae eius illo omnis vitae commodi numquam cumque totam, eveniet, quis accusantium? Quasi optio molestias praesentium voluptate odit ab doloribus in, nemo, numquam quas deserunt expedita exercitationem eaque, nam enim commodi cumque.</p>
-                </div>
-                <div class="contenido-texto">
-                    <h1 class="contenido-titulo">
-                        articulo 3
-                    </h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui numquam, alias unde magnam praesentium quasi quidem est repudiandae ratione possimus esse ullam id maiores perspiciatis reprehenderit, beatae repellendus. Id vero nam non omnis accusamus in sed, earum, eligendi, odio doloribus reprehenderit deleniti aliquid aspernatur tempore saepe? Sunt quibusdam maiores harum sed asperiores incidunt, similique eveniet at, aperiam commodi necessitatibus culpa quaerat ut! Nemo accusantium nihil in veniam omnis doloribus sit incidunt placeat inventore minus culpa, voluptas facilis autem, doloremque cupiditate esse exercitationem animi ad nesciunt quos. Quae consectetur quisquam quas. Itaque ducimus consectetur atque autem voluptatibus nobis assumenda suscipit placeat, obcaecati commodi, praesentium dignissimos adipisci nam natus modi impedit similique ad qui! Velit obcaecati iure officia non eius ex eos voluptatem, architecto temporibus optio corrupti facilis laborum maxime assumenda fugiat aliquid, dolor ullam itaque asperiores deserunt ipsa quas. Ullam voluptatem recusandae, quis ab officiis eum porro commodi provident non nulla est quos et a maxime voluptas dolor natus autem perferendis facilis illum quae! Dolorum ratione in alias perspiciatis, repudiandae eius illo omnis vitae commodi numquam cumque totam, eveniet, quis accusantium? Quasi optio molestias praesentium voluptate odit ab doloribus in, nemo, numquam quas deserunt expedita exercitationem eaque, nam enim commodi cumque.</p>
-                </div>
-                <div class="contenido-texto">
-                    <h1 class="contenido-titulo">
-                        articulo 3
-                    </h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui numquam, alias unde magnam praesentium quasi quidem est repudiandae ratione possimus esse ullam id maiores perspiciatis reprehenderit, beatae repellendus. Id vero nam non omnis accusamus in sed, earum, eligendi, odio doloribus reprehenderit deleniti aliquid aspernatur tempore saepe? Sunt quibusdam maiores harum sed asperiores incidunt, similique eveniet at, aperiam commodi necessitatibus culpa quaerat ut! Nemo accusantium nihil in veniam omnis doloribus sit incidunt placeat inventore minus culpa, voluptas facilis autem, doloremque cupiditate esse exercitationem animi ad nesciunt quos. Quae consectetur quisquam quas. Itaque ducimus consectetur atque autem voluptatibus nobis assumenda suscipit placeat, obcaecati commodi, praesentium dignissimos adipisci nam natus modi impedit similique ad qui! Velit obcaecati iure officia non eius ex eos voluptatem, architecto temporibus optio corrupti facilis laborum maxime assumenda fugiat aliquid, dolor ullam itaque asperiores deserunt ipsa quas. Ullam voluptatem recusandae, quis ab officiis eum porro commodi provident non nulla est quos et a maxime voluptas dolor natus autem perferendis facilis illum quae! Dolorum ratione in alias perspiciatis, repudiandae eius illo omnis vitae commodi numquam cumque totam, eveniet, quis accusantium? Quasi optio molestias praesentium voluptate odit ab doloribus in, nemo, numquam quas deserunt expedita exercitationem eaque, nam enim commodi cumque.</p>
-                </div>
+
+            <div class="contenido__titulo" id="nosotros">
+                <h2 class="titulo__txt">Nosotros</h2>
+                <hr class="division">
             </div>
+
+            <div class="contenido__titulo">
+                <h2 class="titulo__txt" id="servicio">Nuestros Servicios</h2>
+                <hr class="division">
+            </div>
+
+            <div class="contenido">
+                <div class="cards">
+                    <div class="cards__contenedor">
+                        <div class="cards__img-cont"> <img class="cards__img" src="img/bujias.jpg" alt=""></div>
+                        <h2 class="cards__titulo">AFINACIÓN</h2>
+                        <p class="cards__info">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum tempora explicabo velit beatae, modi blanditiis quas quae et delectus commodi ipsa molestiae error sit, consectetur ratione! Eum tenetur voluptates sint!
+                        </p>
+                        <button class="cards__btn">Ver mas <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="cards__contenedor">
+                        <div class="cards__img-cont"> <img class="cards__img"  src="img/aceite.jpg" alt=""></div>
+                        <h2 class="cards__titulo">CAMBIO DE ACEITE</h2>
+                        <p class="cards__info">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum tempora explicabo velit beatae, modi blanditiis quas quae et delectus commodi ipsa molestiae error sit, consectetur ratione! Eum tenetur voluptates sint!
+                        </p>
+                        <button class="cards__btn">Ver mas <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="cards__contenedor">
+                        <div class="cards__img-cont"> <img class="cards__img" src="img/amortiguadores.jpg" alt=""></div>
+                        <h2 class="cards__titulo">SUSPENCIÓN</h2>
+                        <p class="cards__info">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum tempora explicabo velit beatae, modi blanditiis quas quae et delectus commodi ipsa molestiae error sit, consectetur ratione! Eum tenetur voluptates sint!
+                        </p>
+                        <button class="cards__btn">Ver mas <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="cards__contenedor">
+                        <div class="cards__img-cont"> <img class="cards__img" src="img/frenos.jpg" alt=""></div>
+                        <h2 class="cards__titulo">FRENOS</h2>
+                        <p class="cards__info">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum tempora explicabo velit beatae, modi blanditiis quas quae et delectus commodi ipsa molestiae error sit, consectetur ratione! Eum tenetur voluptates sint!
+                        </p>
+                        <button class="cards__btn">Ver mas <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+            
+    
+            
         </div>
     </main>
-    
+
 </body>
+
 </html>
